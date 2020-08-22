@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
+import 'dart:html' as html;
+
 
 class CustomDialog extends StatelessWidget {
   final Image image;
@@ -64,6 +66,9 @@ dialogContent(BuildContext context) {
             child: FlatButton(
               color: Colors.lightGreen,
               onPressed: () {
+                html.window.open(
+                  "https://wa.me/qr/MD4ZJ66QPOQWI1",
+                  "GDE");
                 Navigator.of(context).pop(); // To close the dialog
               },
               child: Row(

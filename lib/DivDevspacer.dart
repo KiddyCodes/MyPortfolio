@@ -1,3 +1,4 @@
+import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
 
 class DivDev extends StatelessWidget {
@@ -7,16 +8,20 @@ class DivDev extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        Text("Div.Dev",
-        textScaleFactor: 2,
-        style: TextStyle(
+        FadeAnimatedTextKit(
+        repeatForever: true,
+        text: [  
+        "Div.Dev",
+        ],
+        textStyle: TextStyle(
+          fontSize: 18,
           fontWeight: FontWeight.bold
         ),
       ),
       SizedBox(
         width: 5,
       ),
-      AnimatedContainer(duration: Duration(seconds: 1),
+      AnimatedContainer(duration: Duration(milliseconds: 1),
       height: 8,
       width: 8,
       decoration: BoxDecoration(
