@@ -93,7 +93,7 @@ dialogContent(BuildContext context) {
                   radius: Consts.avatarRadius,
                   backgroundColor: Colors.white,
                   foregroundColor: Colors.black,
-                  child: Image.asset("mefour.jpg", fit:BoxFit.contain, height: 93,)
+                  child: Image.network("https://res.cloudinary.com/divineadiole/image/upload/v1598217573/mefour_bpda1c.jpg", fit:BoxFit.contain, height: 93,)
                 ),
                 ),
     ],
