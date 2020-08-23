@@ -59,8 +59,8 @@ dialogContent(BuildContext context) {
      
       SizedBox(height: 24.0),
       Row(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          SizedBox(width: 45,),
           Container(
             alignment: Alignment.bottomCenter,
             child: FlatButton(
@@ -80,27 +80,6 @@ dialogContent(BuildContext context) {
             ),
           ),
 
-          SizedBox(width: 70),
-
-           Container(
-             width: 120,
-            alignment: Alignment.bottomCenter,
-            child: FlatButton(
-              color: Colors.red,
-              onPressed: () {
-                Navigator.of(context).pop(); // To close the dialog
-              },
-              child: Row(
-                children: [
-                  Padding(
-                    padding: const EdgeInsets.only(left: 15),
-                    child: Text("Gmail", style: TextStyle(color: Colors.white),),
-                  ),
-                  Icon(MdiIcons.gmail, color: Colors.white,)
-                ],
-              ),
-            ),
-          ),
         ],
       ),
     ],

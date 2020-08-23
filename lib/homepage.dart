@@ -73,7 +73,7 @@ class _HomeState extends State<Home> {
                   radius: 50,
                   backgroundColor: Colors.white,
                   foregroundColor: Colors.black,
-                  child: Image.asset("portpic.png", fit:BoxFit.contain, height: 70,)
+                  child: Image.network("https://res.cloudinary.com/divineadiole/image/upload/v1598217680/Screenshot_from_2020-07-26_18-38-18_f3yojc.png", fit:BoxFit.contain, height: 70,)
                 ),
         ),
                               ]

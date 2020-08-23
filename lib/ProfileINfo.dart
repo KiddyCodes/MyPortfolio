@@ -15,7 +15,7 @@ class ProfileInfo extends StatelessWidget {
     color: Colors.transparent,
     shape: BoxShape.circle,
     image: DecorationImage(
-        image: AssetImage("mefour.jpg"), 
+        image: NetworkImage("https://res.cloudinary.com/divineadiole/image/upload/v1598217573/mefour_bpda1c.jpg"), 
         alignment: Alignment.center,fit: BoxFit.cover
         ),
       ), duration: Duration(milliseconds: 30),
