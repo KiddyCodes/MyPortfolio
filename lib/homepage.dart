@@ -30,7 +30,7 @@ class _HomeState extends State<Home> {
             text: "Resume",
             onPressed: () {
                html.window.open(
-                  "https://drive.google.com/file/d/1zrMaQ0b-ODDefnwwv6n1pepyZmXsqnBF/view?usp=sharing",
+                  "https://drive.google.com/file/d/1c39nUmaPN4OquDOsCcIbjUAXLtKWORBR/view?usp=sharing",
                   "GDE");
             }
           ),

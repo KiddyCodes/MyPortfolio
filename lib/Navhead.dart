@@ -30,7 +30,7 @@ class NavHeader extends StatelessWidget {
             text: "Resume",
             onPressed: () {
                html.window.open(
-                  "https://drive.google.com/file/d/1N6E5gSMlNoU0a79idCFdmxhzVtBPckTf/view?usp=sharing",
+                  "https://drive.google.com/file/d/1c39nUmaPN4OquDOsCcIbjUAXLtKWORBR/view?usp=sharing ",
                   "GDE");
             }
           ),
