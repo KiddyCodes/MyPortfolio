@@ -1,8 +1,8 @@
 import 'dart:html' as html;
 
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:world_hello/About.dart';
 import 'package:world_hello/DivDevspacer.dart';
 import 'package:world_hello/Navigantionbtn.dart';
 import 'package:world_hello/responsive_widget.dart';
@@ -17,31 +17,33 @@ class NavHeader extends StatelessWidget {
     return ResponsiveWidget(
       largeScreen: Row(
         mainAxisAlignment: ResponsiveWidget.isSmallScreen(context)
-        ? MainAxisAlignment.center
-        :MainAxisAlignment.spaceBetween,
+            ? MainAxisAlignment.center
+            : MainAxisAlignment.spaceBetween,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           DivDev(),
 //Spacing
-      if (!ResponsiveWidget.isSmallScreen(context))
-      Row(
-        children: [
-          Navbtn(
-            text: "Resume",
-            onPressed: () {
-               html.window.open(
-                  "https://drive.google.com/file/d/1c39nUmaPN4OquDOsCcIbjUAXLtKWORBR/view?usp=sharing ",
-                  "GDE");
-            }
-          ),
-          Navbtn(
-            text: "Contact",
-            onPressed: () {
-              html.window.open(
-                  "https://t.me/DivdotDev",
-                  "GDE");
-            })
-        ])
+          if (!ResponsiveWidget.isSmallScreen(context))
+            Row(children: [
+              Navbtn(
+                  text: "About",
+                  onPressed: () {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => About()));
+                  }),
+              Navbtn(
+                  text: "Resume",
+                  onPressed: () {
+                    html.window.open(
+                        "https://drive.google.com/file/d/1c39nUmaPN4OquDOsCcIbjUAXLtKWORBR/view?usp=sharing ",
+                        "GDE");
+                  }),
+              Navbtn(
+                  text: "Contact",
+                  onPressed: () {
+                    html.window.open("https://t.me/DivdotDev", "GDE");
+                  }),
+            ])
         ],
       ),
     );
