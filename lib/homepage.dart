@@ -85,13 +85,11 @@ class _HomeState extends State<Home> {
                         Container(
                           alignment: Alignment.bottomRight,
                           child: CircleAvatar(
-                              radius: 50,
+                              radius: 40,
                               backgroundColor: Colors.white,
                               foregroundColor: Colors.black,
-                              child: Image.network(
+                              backgroundImage: NetworkImage(
                                 "https://res.cloudinary.com/divineadiole/image/upload/v1598217680/Screenshot_from_2020-07-26_18-38-18_f3yojc.png",
-                                fit: BoxFit.contain,
-                                height: 70,
                               )),
                         ),
                       ]),

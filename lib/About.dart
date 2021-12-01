@@ -70,6 +70,8 @@ class About extends StatelessWidget {
                   padding: const EdgeInsets.only(top: 20),
                   child: Text(
                     "Well here's everything you need to know😊",
+                    softWrap: true,
+                    textAlign: TextAlign.center,
                     textScaleFactor: 1,
                     style: GoogleFonts.aBeeZee(
                         textStyle: TextStyle(
