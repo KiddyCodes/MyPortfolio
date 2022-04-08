@@ -64,17 +64,17 @@ dialogContent(BuildContext context) {
                   child: FlatButton(
                     color: Colors.lightGreen,
                     onPressed: () {
-                      html.window.open("https://wa.me/+2347042366596", "GDE");
+                      html.window.open("https://t.me/KIDDYkeans", "GDE");
                       Navigator.of(context).pop(); // To close the dialog
                     },
                     child: Row(
                       children: [
                         Text(
-                          "WhatsApp",
+                          "Telegram",
                           style: TextStyle(color: Colors.white),
                         ),
                         Icon(
-                          MdiIcons.whatsapp,
+                          MdiIcons.dialpad,
                           color: Colors.white,
                         )
                       ],
