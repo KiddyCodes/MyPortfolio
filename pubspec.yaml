@@ -33,6 +33,7 @@ dependencies:
   animated_text_kit:
   material_design_icons_flutter:
   simple_splashscreen:
+  url_launcher: ^6.0.20
 
 dev_dependencies:
   flutter_test:

@@ -22,10 +22,10 @@ class _ProfileInfoState extends State<ProfileInfo> {
           decoration: BoxDecoration(
             backgroundBlendMode: BlendMode.luminosity,
             color: Colors.transparent,
-            shape: BoxShape.circle,
+            shape: BoxShape.rectangle,
             image: DecorationImage(
                 image: NetworkImage(
-                    "https://res.cloudinary.com/dyjy3la3arsyttgdg/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1649415858/Screenshot_20220408-120357_r00xrm.jpg"),
+                    "https://res.cloudinary.com/dyjy3la3arsyttgdg/image/upload/v1649439949/going_to_work_happy_tu2nei.png"),
                 alignment: Alignment.center,
                 fit: BoxFit.cover),
           ),
@@ -44,7 +44,8 @@ class _ProfileInfoState extends State<ProfileInfo> {
             speed: Duration(milliseconds: 100),
             text: ["Welcome \n" "I'm Marvellous Amadi"],
             textStyle: GoogleFonts.aBeeZee(
-                textStyle: TextStyle(color: Colors.blue, fontSize: 25)),
+                textStyle: TextStyle(
+                    color: Color.fromARGB(255, 4, 39, 91), fontSize: 25)),
             textAlign: ResponsiveWidget.isSmallScreen(context)
                 ? TextAlign.center
                 : TextAlign.justify,
@@ -68,7 +69,8 @@ class _ProfileInfoState extends State<ProfileInfo> {
                   "and Frontend solutions"
             ],
             textStyle: GoogleFonts.aBeeZee(
-                textStyle: TextStyle(color: Colors.blue, fontSize: 20)),
+                textStyle: TextStyle(
+                    color: Color.fromARGB(255, 4, 39, 91), fontSize: 20)),
             textAlign: ResponsiveWidget.isSmallScreen(context)
                 ? TextAlign.center
                 : TextAlign.justify,
@@ -82,7 +84,8 @@ class _ProfileInfoState extends State<ProfileInfo> {
                 softWrap: true,
                 textScaleFactor: 1.5,
                 style: GoogleFonts.aBeeZee(
-                    textStyle: TextStyle(color: Colors.blue))),
+                    textStyle:
+                        TextStyle(color: Color.fromARGB(255, 4, 39, 91)))),
           ),
           // TyperAnimatedTextKit(
           //   isRepeatingAnimation: false,

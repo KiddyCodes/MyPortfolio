@@ -22,7 +22,7 @@ class _HomeState extends State<Home> {
         largeScreen: Scaffold(
             appBar: AppBar(
               centerTitle: true,
-              title: Text("Merry Christmas & a Happy New Year 🎅🏻🎉🎊",
+              title: Text("Kiddy's Portfolio",
                   style: GoogleFonts.aBeeZee(
                       textStyle: TextStyle(color: Colors.white, fontSize: 15))),
               elevation: 0.0,
@@ -48,7 +48,7 @@ class _HomeState extends State<Home> {
                             text: "Resume",
                             onPressed: () {
                               html.window.open(
-                                  "https://drive.google.com/file/d/1c39nUmaPN4OquDOsCcIbjUAXLtKWORBR/view?usp=sharing",
+                                  "https://drive.google.com/file/d/1YHWskSQRfKp0JFSrUCwiS5kgVU9w8rDe/view?usp=drivesdk",
                                   "GDE");
                             }),
                         Navbtn(
@@ -79,17 +79,18 @@ class _HomeState extends State<Home> {
                             height: MediaQuery.of(context).size.height * 0.1),
                         ProfileInfo(),
                         SizedBox(
-                          height: MediaQuery.of(context).size.height * 0.14,
+                          height: MediaQuery.of(context).size.height * 0.12,
                         ),
                         MySocials(),
                         Container(
                           alignment: Alignment.bottomRight,
                           child: CircleAvatar(
                               radius: 40,
-                              backgroundColor: Colors.white,
+                              backgroundColor: Colors.transparent,
                               foregroundColor: Colors.black,
                               backgroundImage: NetworkImage(
-                                "https://res.cloudinary.com/divineadiole/image/upload/v1598217680/Screenshot_from_2020-07-26_18-38-18_f3yojc.png",
+                                "https://res.cloudinary.com/dyjy3la3arsyttgdg/image/upload/v1649440086/IMG_20220408_184631_332_qx9nfo.png",
+                                scale: 10,
                               )),
                         ),
                       ]),

@@ -22,8 +22,8 @@ class DivDev extends StatelessWidget {
           duration: Duration(milliseconds: 1),
           height: 8,
           width: 8,
-          decoration:
-              BoxDecoration(shape: BoxShape.rectangle, color: Colors.blue),
+          decoration: BoxDecoration(
+              shape: BoxShape.rectangle, color: Color.fromARGB(255, 4, 39, 91)),
         )
       ],
     );

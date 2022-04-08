@@ -17,7 +17,7 @@ class MySocials extends StatelessWidget {
             Row(mainAxisAlignment: MainAxisAlignment.start, children: [
               FlatButton(
                 onPressed: () {
-                  html.window.open("https://github.com/AdioleDivine", "GDE");
+                  html.window.open("https://github.com/KiddyCodes", "GDE");
                 },
                 color: Colors.white,
                 child: Center(
@@ -35,7 +35,8 @@ class MySocials extends StatelessWidget {
               ),
               FlatButton(
                   onPressed: () {
-                    html.window.open("https://twitter.com/AdioleDivine", "GDE");
+                    html.window
+                        .open("https://twitter.com/marvellousamad3", "GDE");
                   },
                   color: Colors.white,
                   child: Row(children: [
@@ -48,8 +49,10 @@ class MySocials extends StatelessWidget {
                   ]))
             ]),
             Text(
-              "Div.Dev © 2021",
-              style: TextStyle(color: Colors.blue, fontWeight: FontWeight.bold),
+              "KiddyCodes © 2021",
+              style: TextStyle(
+                  color: Color.fromARGB(255, 4, 39, 91),
+                  fontWeight: FontWeight.bold),
             )
           ],
         ),
@@ -58,7 +61,7 @@ class MySocials extends StatelessWidget {
             Row(crossAxisAlignment: CrossAxisAlignment.center, children: [
               FlatButton(
                 onPressed: () {
-                  html.window.open("https://github.com/AdioleDivine", "GDE");
+                  html.window.open("https://github.com/KiddyCodes", "GDE");
                 },
                 color: Colors.white,
                 child: Center(
@@ -76,7 +79,8 @@ class MySocials extends StatelessWidget {
               ),
               FlatButton(
                   onPressed: () {
-                    html.window.open("https://twitter.com/AdioleDivine", "GDE");
+                    html.window
+                        .open("https://twitter.com/marvellousamad3", "GDE");
                   },
                   color: Colors.white,
                   child: Row(children: [
@@ -90,7 +94,7 @@ class MySocials extends StatelessWidget {
             ]),
             SizedBox(height: 50),
             Text(
-              "Div.Dev © 2021",
+              "KiddyCodes© 2022",
               style: TextStyle(color: Colors.blue, fontWeight: FontWeight.bold),
             )
           ],

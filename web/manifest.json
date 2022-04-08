@@ -1,11 +1,11 @@
 {
-    "name": "Div.Dev",
-    "short_name": "Div.Dev",
+    "name": "KiddyCodes",
+    "short_name": "KiddyCodes",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "Div.Dev",
+    "description": "KiddyCodes",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
