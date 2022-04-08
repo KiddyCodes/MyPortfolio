@@ -6,7 +6,7 @@ class Navbtn extends StatelessWidget {
   final onPressed;
   final Color color;
 
-  const Navbtn({Key key, this.text, this.onPressed, this.color = Colors.blue})
+  const Navbtn({Key key, this.text, this.onPressed, this.color = Colors.green})
       : super(key: key);
 
   @override
@@ -15,7 +15,7 @@ class Navbtn extends StatelessWidget {
     return FlatButton(
       child: Text(
         text,
-        style: GoogleFonts.aBeeZee(textStyle: TextStyle(color: Colors.blue)),
+        style: GoogleFonts.aBeeZee(textStyle: TextStyle(color: Colors.green)),
       ),
       // borderSide: BorderSide(
       //   color: color,

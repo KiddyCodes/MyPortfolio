@@ -49,7 +49,7 @@ class About extends StatelessWidget {
                           backgroundColor: Colors.white,
                           foregroundColor: Colors.black,
                           backgroundImage: NetworkImage(
-                            "https://res.cloudinary.com/divineadiole/image/upload/v1598217573/mefour_bpda1c.jpg",
+                            "https://res.cloudinary.com/dyjy3la3arsyttgdg/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1649415858/Screenshot_20220408-120357_r00xrm.jpg",
                           )),
                     ),
                   ),
@@ -130,7 +130,7 @@ class About extends StatelessWidget {
                           child: CircleAvatar(
                               backgroundColor: Colors.transparent,
                               backgroundImage: NetworkImage(
-                                  'https://res.cloudinary.com/seeqzaza/image/upload/v1638311728/My%20portfolio/java_dgmrlv.png'))),
+                                  'https://res.cloudinary.com/dyjy3la3arsyttgdg/image/upload/v1649416659/images_jfxvxl.png'))),
                     ],
                   ),
                 ),
@@ -199,60 +199,6 @@ class About extends StatelessWidget {
                               backgroundColor: Colors.transparent,
                               backgroundImage: NetworkImage(
                                   'https://res.cloudinary.com/seeqzaza/image/upload/v1638315897/My%20portfolio/postman_r0wxoo.png'))),
-                    ],
-                  ),
-                ),
-                Padding(
-                  padding: const EdgeInsets.only(top: 30),
-                  child: Text(
-                    "Databases I work with",
-                    textScaleFactor: 1.2,
-                    style: GoogleFonts.aBeeZee(
-                        textStyle: TextStyle(
-                      color: Colors.black,
-                      fontSize: 20,
-                    )),
-                  ),
-                ),
-                Padding(
-                  padding: const EdgeInsets.only(top: 20),
-                  child: Text(
-                    "👇🏻",
-                    textScaleFactor: 1.2,
-                    style: GoogleFonts.aBeeZee(
-                        textStyle: TextStyle(
-                      color: Colors.black,
-                      fontSize: 20,
-                    )),
-                  ),
-                ),
-                Padding(
-                  padding: const EdgeInsets.only(top: 20),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Padding(
-                        padding:
-                            const EdgeInsets.only(left: 0, right: 10, top: 10),
-                        child: CircleAvatar(
-                            backgroundColor: Colors.transparent,
-                            backgroundImage: NetworkImage(
-                                'https://res.cloudinary.com/seeqzaza/image/upload/v1638315987/My%20portfolio/firebase_hz0voz.png')),
-                      ),
-                      Padding(
-                          padding: const EdgeInsets.only(
-                              left: 30, right: 10, top: 10),
-                          child: Container(
-                              height: 40,
-                              child: Image.network(
-                                  'https://res.cloudinary.com/seeqzaza/image/upload/v1638311222/My%20portfolio/mongodb_d9o5cg.png'))),
-                      Padding(
-                          padding: const EdgeInsets.only(
-                              left: 30, right: 10, top: 10),
-                          child: Container(
-                              height: 40,
-                              child: Image.network(
-                                  'https://res.cloudinary.com/seeqzaza/image/upload/v1638316088/My%20portfolio/postgresql_k6hdh8.png'))),
                     ],
                   ),
                 ),

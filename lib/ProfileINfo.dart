@@ -25,7 +25,7 @@ class _ProfileInfoState extends State<ProfileInfo> {
             shape: BoxShape.circle,
             image: DecorationImage(
                 image: NetworkImage(
-                    "https://res.cloudinary.com/divineadiole/image/upload/v1598217573/mefour_bpda1c.jpg"),
+                    "https://res.cloudinary.com/dyjy3la3arsyttgdg/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1649415858/Screenshot_20220408-120357_r00xrm.jpg"),
                 alignment: Alignment.center,
                 fit: BoxFit.cover),
           ),
@@ -42,7 +42,7 @@ class _ProfileInfoState extends State<ProfileInfo> {
             isRepeatingAnimation: false,
             // totalRepeatCount: 1,
             speed: Duration(milliseconds: 100),
-            text: ["Hello! I'm Divine"],
+            text: ["Welcome \n" "I'm Marvellous Amadi"],
             textStyle: GoogleFonts.aBeeZee(
                 textStyle: TextStyle(color: Colors.blue, fontSize: 25)),
             textAlign: ResponsiveWidget.isSmallScreen(context)
@@ -64,8 +64,8 @@ class _ProfileInfoState extends State<ProfileInfo> {
             speed: Duration(milliseconds: 100),
             text: [
               "                      \n"
-                  "I develop Mobile and Desktop Experiences\n"
-                  "and Backend Solutions"
+                  "I develop Mobile Experiences \n"
+                  "and Frontend solutions"
             ],
             textStyle: GoogleFonts.aBeeZee(
                 textStyle: TextStyle(color: Colors.blue, fontSize: 20)),
@@ -125,7 +125,7 @@ class _ProfileInfoState extends State<ProfileInfo> {
                     child: CircleAvatar(
                         backgroundColor: Colors.transparent,
                         backgroundImage: NetworkImage(
-                            'https://res.cloudinary.com/seeqzaza/image/upload/v1638311728/My%20portfolio/java_dgmrlv.png'))),
+                            'https://res.cloudinary.com/dyjy3la3arsyttgdg/image/upload/v1649416659/images_jfxvxl.png'))),
               ],
             ),
           ),
