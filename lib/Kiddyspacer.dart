@@ -11,7 +11,7 @@ class DivDev extends StatelessWidget {
         FadeAnimatedTextKit(
           repeatForever: true,
           text: [
-            "KiddyCodes",
+            "WIZ.CO",
           ],
           textStyle: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
         ),
