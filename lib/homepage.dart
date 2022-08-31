@@ -22,7 +22,7 @@ class _HomeState extends State<Home> {
         largeScreen: Scaffold(
             appBar: AppBar(
               centerTitle: true,
-              title: Text("Kiddy's Portfolio",
+              title: Text("Wizard's Portfolio",
                   style: GoogleFonts.aBeeZee(
                       textStyle: TextStyle(color: Colors.white, fontSize: 15))),
               elevation: 0.0,
